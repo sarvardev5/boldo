@@ -1,0 +1,120 @@
+/* footer start */
+
+.footer {
+    margin-top: 42px;
+    padding: 100px 130px 100px 130px;
+}
+
+.footer-container {
+    max-width: 1190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-content {
+    max-width: 300px;
+}
+
+.footer-logo {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.footer-text {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #777777;
+    margin-bottom: 64px;
+}
+
+.footer-all-rights {
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #777777;
+}
+
+.footer-links {
+    height: auto;
+    min-height: 240px;
+    display: flex;
+    align-items: start;
+    gap: 110px;
+}
+
+.footer-links-col-title {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.footer-links-col-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    list-style: none;
+}
+
+.footer-links-col-list li a {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #777777;
+    text-decoration: none;
+}
+
+.hiring-pop-up {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hiring-pop-up b {
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    background-color: #65E4A3;
+    color: #0A2640;
+    border-radius: 120px;
+    padding: 1px 14px 1px 14px;
+}
+
+@media (max-width: 1270px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+}
+
+@media (max-width: 610px) {
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+    }
+
+    .footer-links-col-list {
+        gap: 10px;
+    }
+
+}
+
+/* footer end */
